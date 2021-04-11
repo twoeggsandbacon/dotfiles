@@ -101,5 +101,19 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+#Install some gui tools
+brew install --cask firefox
+brew install --cask visual-studio-code
+brew install --cask iterm2
+brew install rectangle
+brew install redis
+brew install postgresql
+
+brew services start postgresql
+brew services start redis
+
+brew tap heroku/brew
+brew install heroku
+
 # Remove outdated versions from the cellar.
 brew cleanup
